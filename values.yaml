@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: ishukeshri27/helm-demo-for-flask-app
+  repository: ishukeshri27/helm-demo-for-flask-app    // your docker image name
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -37,8 +37,8 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
-  port: 5000
+  type: ClusterIP ///here you can make it to load balancer also
+  port: 5000  //your app port
 
 ingress:
   enabled: false
