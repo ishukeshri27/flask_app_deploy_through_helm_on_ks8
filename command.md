@@ -1,5 +1,5 @@
-pip3 install flask - for flask installation
-python3 app.py - for running flask app 
+1.pip3 install flask - for flask installation
+2. python3 app.py - for running flask app 
 docker build -t <your image name> - building images
 docker images - to check image has been build or not
 docker login - to login to your docker hub
