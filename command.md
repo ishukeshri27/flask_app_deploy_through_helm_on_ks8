@@ -12,4 +12,4 @@
 12. helm install <release_name> <chart_name> to run your helm chart and get deployment of service of cluster
 13. kubectl get all - to check deployement of components
 14. kubectl port-forward svc/flask-demo-flask-demo-chart 31041:5000 - to port forward the service as it is of type cluster ip
-15. 
+
