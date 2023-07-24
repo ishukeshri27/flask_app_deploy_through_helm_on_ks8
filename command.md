@@ -1,6 +1,6 @@
 1. pip3 install flask - for flask installation
 2. python3 app.py - for running flask app
-3. docker build -t your image name - building images
+3. docker build -t imagename - building images
 4. docker run -p hostport:containerport imagename - to run app as conatiner
 5. docker images - to check image has been build or not
 6. docker login - to login to your docker hub
