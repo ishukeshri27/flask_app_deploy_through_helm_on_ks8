@@ -25,4 +25,4 @@ Deploying flask app on K8 cluster through Helm
 
 
 
-#HAPPY LEARNING
+#YOU GUYS MAKE MORE COMPLEX UI I JUST MAKE IT RANDOMLY HAHA
